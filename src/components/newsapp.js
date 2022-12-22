@@ -42,9 +42,7 @@ const NewsApp =() =>{
         })
     }
         //mounting
-    useEffect(() =>{
-          loadNews()  //api call
-    },[])
+    
         //updating 
     useEffect(() =>{
         
